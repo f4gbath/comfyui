@@ -11,14 +11,22 @@ PYTHON_PACKAGES=(
 )
 
 NODES=(
-    "https://github.com/ltdrdata/ComfyUI-Manager"
-)
+    "https://github.com/ltdrdata/ComfyUI-Manager.git"
+"https://github.com/ltdrdata/ComfyUI-Impact-Pack.git"
+"https://github.com/ssitu/ComfyUI_UltimateSDUpscale.git"
+"https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved.git"
+"https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet.git"
+"https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite.git"
+"https://github.com/cubiq/ComfyUI_IPAdapter_plus.git"
+"https://github.com/aianimation55/ComfyUI-FatLabels.git"
+"https://github.com/jags111/efficiency-nodes-comfyui.git"
+"https://github.com/WASasquatch/was-node-suite-comfyui.git"
+"https://github.com/WASasquatch/FreeU_Advanced.git"
+"https://github.com/rgthree/rgthree-comfy.git"
+    )
 
 CHECKPOINT_MODELS=(
-    "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
-    #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
-    #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
-    #"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
+" https://civitai.com/api/download/models/252914"
 )
 
 LORA_MODELS=(
@@ -34,7 +42,7 @@ VAE_MODELS=(
 ESRGAN_MODELS=(
     "https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x4.pth"
     "https://huggingface.co/FacehugmanIII/4x_foolhardy_Remacri/resolve/main/4x_foolhardy_Remacri.pth"
-    "https://huggingface.co/Akumetsu971/SD_Anime_Futuristic_Armor/resolve/main/4x_NMKD-Siax_200k.pth"
+    "https://huggingface.co/lokCX/4x-Ultrasharp/resolve/main/4x-UltraSharp.pth?download=true"
 )
 
 CONTROLNET_MODELS=(
